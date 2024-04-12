@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #3399FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.containe{
+    margin:  40px auto;
+    width: 350px;
+}
+h3{
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+input[type="text"]{
+    border: 1pxs solid salmon;
+    border-radius: 2px;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+.btn{
+    background: #33CC33; 
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    margin: 10px 0 30px;
+    padding: 10px;
+    width: 100%;
+
+}
