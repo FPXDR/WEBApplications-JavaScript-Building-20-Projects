@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#2E8B57;
+    --secondary-color:floralwhite;
+}
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+.time{
+    font-size: 80px;
+}
+.toggle{
+    cursor: pointer;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 1.4rem;
+    border: 0;
+    border-radius: 5px 7px;
+    padding: 8px 14px;
+    position: absolute;
+    bottom: 500px;
+    
+}
+html.dark{
+    --primary-color:floralwhite;
+    --secondary-color:#f18fede3;
+}
+html.dark{
+    background:#0e0d0d;
+    color: var(--secondary-color);
+}
+html.dark{
+    transition: all 0.6s ease-in;
+    tr
+}
