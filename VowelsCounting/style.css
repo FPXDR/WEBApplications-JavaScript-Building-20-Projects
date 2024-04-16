@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #68e268;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.container{
+    width: 40rem;
+    border: 1px solid rgb(122, 195, 238);
+    padding: 1rem;
+    background: rgb(240, 191, 191);
+    text-align: center;
+    border-radius: 5px;
+}
+.count{
+    font-size: 3rem;
+    padding:  0 1rem;
+    text-align: center;
+}
+input[type="text"]{
+    border: 1px solid #dedefd;
+    border-radius: 2px;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+}
