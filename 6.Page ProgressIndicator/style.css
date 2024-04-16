@@ -68,7 +68,7 @@ h2{
 }
 .flex{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 .flex *{
