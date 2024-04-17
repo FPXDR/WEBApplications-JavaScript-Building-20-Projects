@@ -82,3 +82,22 @@ h2{
     margin: 3px;
 }
 
+.top{
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    font-size: 2rem;
+    background: transparent;
+    padding: 1rem;
+    border: 1px solid rgb(178, 122, 235);
+    outline: none;
+    cursor: pointer;
+    z-index: 111;
+    opacity: 0;
+    transform: translateY(10rem);
+    transition: all 0.3s;
+}
+.show-btn{
+    opacity: 1;
+    transform:  translateY(0);
+}
