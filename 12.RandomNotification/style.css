@@ -1,5 +1,41 @@
 *{
     box-sizing: border-box;
+}
+body{
+    background: rgb(231, 173, 173);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
     margin: 0;
-    padding: 0;
+}
+.btn{
+    background: rgb(236, 208, 170);
+    color: aqua;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+}
+.btn:active{
+    transform: scale(0.98);
+}
+.container{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.notification{
+    background: white;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    margin: 0.5rem;
+    color: black;
 }
