@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: rgb(221, 116, 207);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(66, 224, 177);
+    margin: 30px;
+}
+.container{
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    color: rgb(54, 35, 223);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+input{
+    width: 100%;
+    padding: 15px;
+    background: none;
+    outline: none;
+    border: 1px solid rgb(231, 162, 252);
+    color: rgb(7, 7, 7);
+    font-size: 25px;
+    margin-bottom: 25px;
+}
