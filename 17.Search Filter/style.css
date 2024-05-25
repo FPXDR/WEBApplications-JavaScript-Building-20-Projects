@@ -23,3 +23,38 @@ body{
     margin: 5px 0 20px;
     opacity: 0.8;
 }
+.header{
+    background: #333;
+    color: antiquewhite;
+    padding: 30px 20px;
+}
+.header input{
+    background: rgba(0, 0, 0, 0.3);
+    border: 0;
+    border-radius: 60px;
+    color: aliceblue;
+    font-size: 15px;
+    padding: 10px 15px;
+    width: 100%;
+}
+.header input:focus{
+    outline: none;
+}
+.country-list{
+    background: #fff;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    max-height: 400px;
+    overflow-y: auto;
+}
+.country-list li{
+    display: flex;
+    padding: 20px;
+}
+.country-list img{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+}
