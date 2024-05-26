@@ -8,15 +8,17 @@ body{
     height: 100vh;
     overflow: hidden;
     margin: 0;
+    background: #333;
 }
 .conteainer{
     border-radius: 10px;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 20px rgba(32, 17, 17, 0.2);
     overflow: hidden;
     width: 440px;
 }
 .title{
     margin: 0;
+    color: azure;
 }
 .subtitle{
     display: inline-table;
@@ -24,15 +26,15 @@ body{
     opacity: 0.8;
 }
 .header{
-    background: #333;
-    color: antiquewhite;
+    background: #f09b9b;
+    color: rgb(241, 206, 206);
     padding: 30px 20px;
 }
 .header input{
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(248, 246, 246, 0.3);
     border: 0;
     border-radius: 60px;
-    color: aliceblue;
+    color: rgb(241, 220, 233);
     font-size: 15px;
     padding: 10px 15px;
     width: 100%;
@@ -41,7 +43,7 @@ body{
     outline: none;
 }
 .country-list{
-    background: #fff;
+    background: #f3cece;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -50,11 +52,26 @@ body{
 }
 .country-list li{
     display: flex;
-    padding: 20px;
+    padding: 30px;
 }
 .country-list img{
     border-radius: 50%;
     object-fit: cover;
     width: 50px;
     height: 50px;
+}
+.country-list .info{
+    margin-left: 10px;
+}
+.country-list .info h4{
+    margin: 0 0 10px;
+}
+.country-list .info p{
+    font-size: 15px;
+}
+.country-list li:not(:last-of-type){
+    border-bottom: 0.5px solid #333232;
+}
+.country-list li.hide{
+    display: none;
 }
