@@ -26,9 +26,9 @@ async function getData(){
         listItem.push(li)
         li.innerHTML=
         `
-            <img src="${data.flag}">
+            <img src="${data.flags.svg}">
             <div class="info">
-                <h4>${data.name}</h4>
+                <h4>${data.name.common}</h4>
                 <p>${formatNumber(data.population)}</p>
             </div>
         `
